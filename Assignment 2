@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    int x,y,res=1;
+    scanf("%d%d",&x,&y);
+    while (y!=0)
+    {
+    res*=x;
+    y--;
+    }
+    printf("%d",res);
+    return 0;
+}
