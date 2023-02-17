@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int n,i=1,k,oddsum=0,evensum=0;
+    scanf("%d%d",&n,&k);
+    while(k*i<=n)
+    {
+    printf("%d ",k*i);
+        if(k*i%2==0)
+       evensum+=k*i;
+    else
+oddsum+=k*i;
+        i++;
+    }
+    printf("oddsum:%d\n",oddsum);
+    printf("evensum:%d\n",evensum);
+    return 0;
+}
