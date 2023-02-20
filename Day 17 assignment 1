@@ -1,0 +1,18 @@
+
+#include<stdio.h>
+
+int main(){
+    int i=1,n,ele,temp;
+    printf("enter the no of terms:");
+    scanf("%d",&n);
+    while(i<=n){
+        scanf("%d",&ele);
+        if(i==1)
+        temp=ele;
+        if(ele<temp)
+        temp=ele;
+        i++;
+    }
+    printf("lowest is %d",temp);
+    return 0;
+}
